@@ -1,6 +1,6 @@
 HackerRank problem
 
-Question:Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each of the array element between two given indices, inclusive. 
+''' Question:Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each of the array element between two given indices, inclusive. 
 Once all operations have been performed, return the maximum value in your array.
 For example, the length of your array of zeros n=10 . Your list of queries is as follows:
     a b k
@@ -13,11 +13,11 @@ index->	 1 2 3  4  5 6 7 8 9 10
 	[3,3,3, 3, 3,0,0,0,0, 0]
 	[3,3,3,10,10,7,7,7,0, 0]
 	[3,3,3,10,10,8,8,8,1, 0]
-  The largest value is 10 after all operations are performed.
+  The largest value is 10 after all operations are performed.'''
   
   
-  PROGRAM CODE:
-  First approach:
+ # PROGRAM CODE:
+ # First approach:
   
 import math
 import os
@@ -58,14 +58,14 @@ if __name__ == '__main__':
     
     
     
-           "The above approach doesn't work for all the testcases in hackerrank because it is not efficient and take too much time and get into timeout.This is a brute force method"
+          ''' "The above approach doesn't work for all the testcases in hackerrank because it is not efficient and take too much time and get into timeout.This is a brute force method"
            
            So I searched the discussion forum for an efficient program code and found this efficient and optimised code for the above problem.
            Reference: Hackerrank Disscussion Logic is well defined in the forum. 
-           More detailed description for the logic Refer this you tube video: https://youtu.be/hDhf04AJIRs
+           More detailed description for the logic Refer this you tube video: https://youtu.be/hDhf04AJIRs '''
            
-   Second Approach:
-   Here is the modified function:
+  # Second Approach:
+  # Here is the modified function:
    
    def arrayManipulation(n, queries):
     ans = list()
