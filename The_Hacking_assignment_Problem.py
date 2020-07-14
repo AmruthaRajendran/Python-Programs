@@ -22,7 +22,8 @@ INPUT FORMAT:
 def uniquepassword(lst):
     wordlength = dict()
     for word in lst:
-        wordlength[len(word)] = wordlength.get(len(word),0)+1
+        wordlength[len(word)] = wordlength.get(len(word),0)+1      # Here we have to find the number of unique length strings given as input,
+                                                                   # So that I created a dictionary for the length of each string.
     return(len(wordlength))
 
 lst = list()
