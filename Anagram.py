@@ -49,7 +49,7 @@ Test Case #02: You have to replace 'a' with 'b', which will generate "bb".
 Test Case #03: It is not possible for two strings of unequal length to be anagrams of one another.
 Test Case #04: We have to replace both the characters of first string ("mn") to make it an anagram of the other one.
 Test Case #05: S1 and S2 are already anagrams of one another.
-Test Case #06: Here S1 = "xaxb" and S2 = "bbxx". You must replace 'a' from S1 with 'b' so that S1 = "xbxb".
+Test Case #06: Here S1 = "xaxb" and S2 = "bbxx". You must replace 'a' from S1 with 'b' so that S1 = "xbxb".'''
 
 # Program Code:
 
