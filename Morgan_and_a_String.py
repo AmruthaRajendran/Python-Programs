@@ -11,10 +11,10 @@ Jack	Daniel	result
 ACA	  BCF
 CA	  BCF	    A
 CA	  CF	    AB
-A	    CF	    ABC
+A	  CF	    ABC
 A 	  CF	    ABCA
-      F	      ABCAC
-    		      ABCACF
+         F	    ABCAC
+    		    ABCACF
 Note the choice when there was a tie at CA and CF.
 
 Function Description
